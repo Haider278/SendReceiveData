@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Send And Receive Data</string>
+    <string name="open_for_received">Open For Received</string>
+    <string name="send_to_activity">Send To Activity1</string>
+</resources>

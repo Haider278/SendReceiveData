@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ResultActivity">
+
+    <Button
+        android:id="@+id/sendToActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/send_to_activity"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:layout_margin="10dp"
+        android:padding="15dp" />
+    <Button
+        android:id="@+id/openForReceived"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/open_for_received"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:layout_margin="10dp"
+        android:padding="15dp" />
+    <TextView
+        android:id="@+id/contentFromResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:padding="6dp"
+        android:textAllCaps="false"
+        android:textSize="24sp" />
+
+
+</LinearLayout>
